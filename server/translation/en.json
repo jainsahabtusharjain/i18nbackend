@@ -1,11 +1,10 @@
 {
   "home": {
-    "title": "Welcome to our website new here with all updates",
-    "description": "This is the home page"
+    "title": "Welcome to <1>{{appName}}</1>",
+    "description": "This is the home page of {{appName}}. Enjoy your stay!"
   },
   "about": {
-    "title": "About Us",
-    "description": "Learn about our story and mission which is to be make a last mile delivery",
-    "content": "We are a company dedicated to providing innovative solutions for our customers."
+    "title": "About <1>{{appName}}</1>",
+    "description": "{{appName}} is an amazing application that does wonderful things."
   }
 }

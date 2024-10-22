@@ -1,11 +1,10 @@
 {
   "home": {
-    "title": "Bienvenue sur notre site web new here with all updates",
-    "description": "Ceci est la page d'accueil"
+    "title": "Bienvenue sur <1>{{appName}}</1>",
+    "description": "Ceci est la page d'accueil de {{appName}}. Profitez de votre visite !"
   },
   "about": {
-    "title": "À propos de nous",
-    "description": "Découvrez notre histoire et notre mission",
-    "content": "Nous sommes une entreprise dédiée à fournir des solutions innovantes pour nos clients."
+    "title": "À propos de <1>{{appName}}</1>",
+    "description": "{{appName}} est une application incroyable qui fait des choses merveilleuses."
   }
 }

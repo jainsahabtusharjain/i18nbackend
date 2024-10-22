@@ -19,6 +19,8 @@ i18n
     // this down here is used to apply a lazy loading
     react: {
       useSuspense: true, //enable suspense
+      transSupportBasicHtmlNodes: true,
+      transKeepBasicHtmlNodesFor: ['br', 'strong', 'i', 'p'],
     },
   });
 
