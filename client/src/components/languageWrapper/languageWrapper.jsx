@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useParams, Outlet } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import Header from '../header/header'
 
 
 const LanguageWrapper = () => {
@@ -15,7 +16,10 @@ const LanguageWrapper = () => {
 
     return (
         <div>
-            <Outlet /> {/* Render child routes */}
+            <Header lang = {lang}/>
+            <div style={{marginTop: '50px'}}>
+                <Outlet /> {/* Render child routes */}
+            </div>
         </div>
     );
 };

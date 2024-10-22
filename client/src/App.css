@@ -40,3 +40,65 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Add these new styles for the header component */
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+/* Modify these existing styles for the header component */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #646cff;
+}
+
+.local-options {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.local-options a {
+  text-decoration: none;
+  color: #666;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.local-options a:hover {
+  background-color: #646cff;
+  color: white;
+  border-color: #646cff;
+}
+

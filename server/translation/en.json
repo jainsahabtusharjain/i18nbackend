@@ -1,6 +1,11 @@
 {
-    "home": {
-      "title": "Welcome to our website",
-      "description": "This is the home page"
-    }
+  "home": {
+    "title": "Welcome to our website new here with all updates",
+    "description": "This is the home page"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn about our story and mission which is to be make a last mile delivery",
+    "content": "We are a company dedicated to providing innovative solutions for our customers."
   }
+}

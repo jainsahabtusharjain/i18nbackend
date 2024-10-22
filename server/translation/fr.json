@@ -1,7 +1,11 @@
 {
-    "home": {
-      "title": "Bienvenue sur notre site web new here with all updates",
-      "description": "Ceci est la page d'accueil"
-    }
+  "home": {
+    "title": "Bienvenue sur notre site web new here with all updates",
+    "description": "Ceci est la page d'accueil"
+  },
+  "about": {
+    "title": "À propos de nous",
+    "description": "Découvrez notre histoire et notre mission",
+    "content": "Nous sommes une entreprise dédiée à fournir des solutions innovantes pour nos clients."
   }
-  
+}
