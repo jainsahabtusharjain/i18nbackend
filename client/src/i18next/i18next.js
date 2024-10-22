@@ -10,7 +10,7 @@ i18n
   .init({
     fallbackLng: "en",
     backend: {
-      loadPath: "http://localhost:3001/translations/{{lng}}",
+      loadPath: "http://localhost:3001/translation/{{lng}}",
     },
     detection: {
       order: ["path", "navigator", "localStorage"],

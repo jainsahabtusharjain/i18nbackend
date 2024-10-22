@@ -10,7 +10,7 @@ const app = express();
 const port = 3001;
 
 const corsOptions = {
-    origin:"http://localhost:3000",
+    origin: ["http://localhost:3000", "http://localhost:5173"], // Allow both origins
     optionSuccessStatus: 200
 }
 
@@ -20,6 +20,7 @@ app.use(cors(corsOptions))
 app.get("/translation/:lang", (req, res)=>{
     // fetching values of the lang
     const lang = req.params.lang;
+    console.log(`Received request for language: ${lang}`);
 
     // need the construct the file form where we are fetching the translationjson content
     //  while we are fetching the content of the language from the frontend
