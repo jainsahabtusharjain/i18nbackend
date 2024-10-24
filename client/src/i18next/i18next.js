@@ -15,6 +15,8 @@ i18n
     detection: {
       order: ["path", "navigator", "localStorage"],
       lookupFromPathIndex: 0,
+      // order: ["querystring", "navigator", "localStorage"],
+      // lookupQuerystring: "lang",
     },
     // this down here is used to apply a lazy loading
     react: {
